@@ -7,6 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/policies", function (req, res) {
+  res.header("Access-Control-Allow-Origin", "*");
   res.status(200).json({ data });
 });
 
