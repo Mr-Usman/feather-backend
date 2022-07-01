@@ -279,6 +279,34 @@ const data = [
       dateOfBirth: "1979-04-23T10:03:12.000Z",
     },
   },
+  {
+    id: "5f32a41a-6de6-45ab-812b-87ef62afe0g2",
+    provider: "GHY",
+    insuranceType: "HOUSEHOLD",
+    status: "ACTIVE",
+    startDate: "2016-04-14T02:53:58.000Z",
+    endDate: null,
+    customer: {
+      id: "951e0a37-69d8-4367-8579-761e70e7cd78",
+      firstName: "Usman",
+      lastName: "Rehmat",
+      dateOfBirth: "1979-04-23T10:03:12.000Z",
+    },
+  },
+  {
+    id: "5f32a41a-6de6-45ab-452b-87ef62afe0g2",
+    provider: "TK",
+    insuranceType: "HEALTH",
+    status: "ACTIVE",
+    startDate: "2016-04-14T02:53:58.000Z",
+    endDate: null,
+    customer: {
+      id: "951e0a37-69d8-4367-8579-761e70e7cd78",
+      firstName: "Faizan",
+      lastName: "Rehmat",
+      dateOfBirth: "1979-04-23T10:03:12.000Z",
+    },
+  },
 ];
 
 module.exports = data;
